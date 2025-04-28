@@ -1,0 +1,11 @@
+C:\גיבוי\יד\c#++\project\Servise\bin\Debug\net6.0\Servise.deps.json
+C:\גיבוי\יד\c#++\project\Servise\bin\Debug\net6.0\Servise.dll
+C:\גיבוי\יד\c#++\project\Servise\bin\Debug\net6.0\Servise.pdb
+C:\גיבוי\יד\c#++\project\Servise\obj\Debug\net6.0\Servise.GeneratedMSBuildEditorConfig.editorconfig
+C:\גיבוי\יד\c#++\project\Servise\obj\Debug\net6.0\Servise.AssemblyInfoInputs.cache
+C:\גיבוי\יד\c#++\project\Servise\obj\Debug\net6.0\Servise.AssemblyInfo.cs
+C:\גיבוי\יד\c#++\project\Servise\obj\Debug\net6.0\Servise.csproj.CoreCompileInputs.cache
+C:\גיבוי\יד\c#++\project\Servise\obj\Debug\net6.0\Servise.dll
+C:\גיבוי\יד\c#++\project\Servise\obj\Debug\net6.0\refint\Servise.dll
+C:\גיבוי\יד\c#++\project\Servise\obj\Debug\net6.0\Servise.pdb
+C:\גיבוי\יד\c#++\project\Servise\obj\Debug\net6.0\ref\Servise.dll

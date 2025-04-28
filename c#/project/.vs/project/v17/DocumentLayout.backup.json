@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80AFCBE4-2141-414B-8CC2-B1FAFE436CFB}|project\\project.csproj|e:\\project\\project\\controllers\\plantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80AFCBE4-2141-414B-8CC2-B1FAFE436CFB}|project\\project.csproj|solutionrelative:project\\controllers\\plantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|e:\\project\\servise\\services\\plantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|solutionrelative:servise\\services\\plantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|e:\\project\\servise\\services\\plantscharacterizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|solutionrelative:servise\\services\\plantscharacterizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|e:\\project\\servise\\interface\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|solutionrelative:servise\\interface\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|e:\\project\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10CDDAC-5EE6-4B66-82F2-7891E42CCF08}|Common\\Common.csproj|e:\\project\\common\\dto\\plantcharacterizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10CDDAC-5EE6-4B66-82F2-7891E42CCF08}|Common\\Common.csproj|solutionrelative:common\\dto\\plantcharacterizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10CDDAC-5EE6-4B66-82F2-7891E42CCF08}|Common\\Common.csproj|e:\\project\\common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D10CDDAC-5EE6-4B66-82F2-7891E42CCF08}|Common\\Common.csproj|solutionrelative:common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|e:\\project\\servise\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|solutionrelative:servise\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F7F543-920D-4ABA-894A-21D254667D12}|Mock\\Mock.csproj|e:\\project\\mock\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F7F543-920D-4ABA-894A-21D254667D12}|Mock\\Mock.csproj|solutionrelative:mock\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10CDDAC-5EE6-4B66-82F2-7891E42CCF08}|Common\\Common.csproj|e:\\project\\common\\dto\\plantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10CDDAC-5EE6-4B66-82F2-7891E42CCF08}|Common\\Common.csproj|solutionrelative:common\\dto\\plantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10CDDAC-5EE6-4B66-82F2-7891E42CCF08}|Common\\Common.csproj|e:\\project\\common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10CDDAC-5EE6-4B66-82F2-7891E42CCF08}|Common\\Common.csproj|solutionrelative:common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|e:\\project\\repository\\entities\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|solutionrelative:repository\\entities\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|e:\\project\\repository\\entities\\plantcharacterization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|solutionrelative:repository\\entities\\plantcharacterization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|e:\\project\\servise\\services\\extensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|solutionrelative:servise\\services\\extensionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|e:\\project\\servise\\services\\mymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B0DFF1-E420-4AF9-9E14-852B50607F11}|Servise\\Service.csproj|solutionrelative:servise\\services\\mymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|e:\\project\\repository\\repositories\\extensionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\extensionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|e:\\project\\repository\\interface\\icontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|solutionrelative:repository\\interface\\icontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|e:\\project\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA736EC6-AD0D-4FDF-B077-0C908838089A}|Repository\\Repository.csproj|solutionrelative:repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.csproj",
+              "DocumentMoniker": "E:\\project\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
+              "ToolTip": "E:\\project\\Repository\\Repository.csproj",
+              "RelativeToolTip": "Repository\\Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-02T16:58:58.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlantController.cs",
+              "DocumentMoniker": "E:\\project\\project\\Controllers\\PlantController.cs",
+              "RelativeDocumentMoniker": "project\\Controllers\\PlantController.cs",
+              "ToolTip": "E:\\project\\project\\Controllers\\PlantController.cs*",
+              "RelativeToolTip": "project\\Controllers\\PlantController.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowCsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlantCharacterizationDto.cs",
+              "DocumentMoniker": "E:\\project\\Common\\Dto\\PlantCharacterizationDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\PlantCharacterizationDto.cs",
+              "ToolTip": "E:\\project\\Common\\Dto\\PlantCharacterizationDto.cs",
+              "RelativeToolTip": "Common\\Dto\\PlantCharacterizationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IService.cs",
+              "DocumentMoniker": "E:\\project\\Servise\\Interface\\IService.cs",
+              "RelativeDocumentMoniker": "Servise\\Interface\\IService.cs",
+              "ToolTip": "E:\\project\\Servise\\Interface\\IService.cs",
+              "RelativeToolTip": "Servise\\Interface\\IService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Service.csproj",
+              "DocumentMoniker": "E:\\project\\Servise\\Service.csproj",
+              "RelativeDocumentMoniker": "Servise\\Service.csproj",
+              "ToolTip": "E:\\project\\Servise\\Service.csproj",
+              "RelativeToolTip": "Servise\\Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-02T16:58:58.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "plantsCharacterizationService.cs",
+              "DocumentMoniker": "E:\\project\\Servise\\Services\\plantsCharacterizationService.cs",
+              "RelativeDocumentMoniker": "Servise\\Services\\plantsCharacterizationService.cs",
+              "ToolTip": "E:\\project\\Servise\\Services\\plantsCharacterizationService.cs",
+              "RelativeToolTip": "Servise\\Services\\plantsCharacterizationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlantService.cs",
+              "DocumentMoniker": "E:\\project\\Servise\\Services\\PlantService.cs",
+              "RelativeDocumentMoniker": "Servise\\Services\\PlantService.cs",
+              "ToolTip": "E:\\project\\Servise\\Services\\PlantService.cs",
+              "RelativeToolTip": "Servise\\Services\\PlantService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Common.csproj",
+              "DocumentMoniker": "E:\\project\\Common\\Common.csproj",
+              "RelativeDocumentMoniker": "Common\\Common.csproj",
+              "ToolTip": "E:\\project\\Common\\Common.csproj",
+              "RelativeToolTip": "Common\\Common.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-02T16:58:58.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlantDto.cs",
+              "DocumentMoniker": "E:\\project\\Common\\Dto\\PlantDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\PlantDto.cs",
+              "ToolTip": "E:\\project\\Common\\Dto\\PlantDto.cs",
+              "RelativeToolTip": "Common\\Dto\\PlantDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\project\\Common\\Class1.cs",
+              "RelativeDocumentMoniker": "Common\\Class1.cs",
+              "ToolTip": "E:\\project\\Common\\Class1.cs",
+              "RelativeToolTip": "Common\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "E:\\project\\Mock\\DataContext.cs",
+              "RelativeDocumentMoniker": "Mock\\DataContext.cs",
+              "ToolTip": "E:\\project\\Mock\\DataContext.cs",
+              "RelativeToolTip": "Mock\\DataContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlantCharacterization.cs",
+              "DocumentMoniker": "E:\\project\\Repository\\Entities\\PlantCharacterization.cs",
+              "RelativeDocumentMoniker": "Repository\\Entities\\PlantCharacterization.cs",
+              "ToolTip": "E:\\project\\Repository\\Entities\\PlantCharacterization.cs",
+              "RelativeToolTip": "Repository\\Entities\\PlantCharacterization.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Plant.cs",
+              "DocumentMoniker": "E:\\project\\Repository\\Entities\\Plant.cs",
+              "RelativeDocumentMoniker": "Repository\\Entities\\Plant.cs",
+              "ToolTip": "E:\\project\\Repository\\Entities\\Plant.cs",
+              "RelativeToolTip": "Repository\\Entities\\Plant.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExtensionService.cs",
+              "DocumentMoniker": "E:\\project\\Servise\\Services\\ExtensionService.cs",
+              "RelativeDocumentMoniker": "Servise\\Services\\ExtensionService.cs",
+              "ToolTip": "E:\\project\\Servise\\Services\\ExtensionService.cs",
+              "RelativeToolTip": "Servise\\Services\\ExtensionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MyMapper.cs",
+              "DocumentMoniker": "E:\\project\\Servise\\Services\\MyMapper.cs",
+              "RelativeDocumentMoniker": "Servise\\Services\\MyMapper.cs",
+              "ToolTip": "E:\\project\\Servise\\Services\\MyMapper.cs",
+              "RelativeToolTip": "Servise\\Services\\MyMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExtensionRepository.cs",
+              "DocumentMoniker": "E:\\project\\Repository\\Repositories\\ExtensionRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\ExtensionRepository.cs",
+              "ToolTip": "E:\\project\\Repository\\Repositories\\ExtensionRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\ExtensionRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\project\\Repository\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interface\\IRepository.cs",
+              "ToolTip": "E:\\project\\Repository\\Interface\\IRepository.cs",
+              "RelativeToolTip": "Repository\\Interface\\IRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvw8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IContext.cs",
+              "DocumentMoniker": "E:\\project\\Repository\\Interface\\IContext.cs",
+              "RelativeDocumentMoniker": "Repository\\Interface\\IContext.cs",
+              "ToolTip": "E:\\project\\Repository\\Interface\\IContext.cs",
+              "RelativeToolTip": "Repository\\Interface\\IContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:58:58.879Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
