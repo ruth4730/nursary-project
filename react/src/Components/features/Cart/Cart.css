@@ -1,0 +1,173 @@
+.cart-container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row-reverse;
+  }
+  
+  .cart-items {
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+  }
+  .cart-icon {
+    font-size: 50px;
+    color: #607d8b;
+  }
+  .cart-text {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .cart-subtext {
+    color: #757575;
+  }
+  
+  .cart-button {
+    margin-top: 20px;
+    font-size: 1.2rem; /* הגדלת גודל טקסט בכפתור */
+  padding: 12px 20px; /* הגדלת שטח הכפתור */
+  }
+  .cart-summary-box {
+    flex: 1;
+    align-self: flex-start;
+    width: 60%;
+    background-color: #f9f9f9;
+    padding:40px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    order: 2;
+    margin-top: -50px; /* מעלה את המלבן */
+    margin-left: -80px; /* מזיז שמאלה */
+  }
+  .cart-summary-box .total-price {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    border-top: 1px solid #ddd; /* פס אפור בהיר בין המשלוח לסה"כ */
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px; /* רווח נוסף בין סה"כ לכפתור */
+}
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .cart-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 16px;
+  }
+  
+  .cart-item-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+  }
+  
+  .cart-item-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .cart-summary {
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    width: 100%;
+    font-size: 1.3rem;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .cart-summary-pading{
+    padding: 100px;
+    width: 150%;
+    margin-top: -50px;
+    margin-left: -80px;
+  }
+
+.cart-summary-box h5 {
+    margin-bottom: 20px; /* רווח גדול יותר בין הכותרת לשאר */
+}
+
+.cart-summary-box p {
+    margin-bottom: 25px; /* רווחים גדולים יותר בין כל שורה */
+}
+.catr-title{
+  padding: 5px 0 5px 0;
+  margin-bottom: -10px;
+  text-align: right;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+.cart.img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* מבטיח שהתמונה תהיה מרובעת ולא תימתח */
+  max-height: 100vh;
+}
+.right-div-cart {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+}
+
+.empty-cart-icon {
+  font-size: 80px !important;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.empty-cart-container h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.empty-cart-container p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.cart-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}

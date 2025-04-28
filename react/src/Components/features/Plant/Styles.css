@@ -1,0 +1,281 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2 !important; /* הוספת רקע לעמוד */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.page-container {
+  min-height: 100vh; /* לוודא שהרקע ממשיך לכל אורך הדף */
+  background-color: #f2f2f2; /* הוספת רקע לעמוד */
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1; /* התוכן יתפוס את כל השטח שנותר */
+  background-color: #f2f2f2; /* מונע רקע לבן */
+  width: 100%;
+}
+
+/*showAllPlants component*/
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  max-width: 36rem;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top:20%;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: space-between; /* מבטיח ריווח בין האייקון לטקסט */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.search-input {
+  flex-grow: 1;
+  text-align: right;/*מיישר לימין*/
+  width: 100vw;
+  padding: 0 1rem;
+  color: #374151;
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  overflow-y: hidden;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  color: #4b5563;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  color: black;
+}
+
+.search-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.search-text {
+  margin-left: 0.5rem;
+}
+
+.plant-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  width: 80vw;
+  position: absolute;
+  /* top:30%; */
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+}
+
+.plant-card {
+  text-align: center;
+  background-color: #ffffff;
+  overflow: hidden; /* הסתרת תוכן שעובר את גבולות הכרטיסיה */
+  display: flex; /* שימוש ב-flexbox עבור סידור תוכן אנכי */
+  flex-direction: column; /* סידור תוכן אנכי */
+}
+
+.plant-image {
+  width: 100%; /* התאמת רוחב התמונה לכרטיסיה */
+  height: 200px; /* גובה קבוע לתמונות */
+  object-fit: cover; /* מילוי הכרטיסיה תוך שמירה על פרופורציות */
+}
+
+.plant-info {
+  display: flex;
+  justify-content: space-around; /* סידור אייקונים בשורה */
+  /*flex-direction: column;
+  gap: 5px;*/
+  margin-top: 10px;
+  padding: 0 10px 10px;
+}
+.plant-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.plant-separator {
+  border: none;
+  height: 1px;
+  background-color: #d1d5db;
+  margin: 10px 0;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.sun {
+  background-color: #fff9c4; /* צהוב בהיר */
+}
+
+.irrigation {
+  background-color: #b2ebf2; /* כחול בהיר */
+}
+
+.temperature {
+  background-color: #ffcdd2; /* אדום בהיר */
+}
+
+.sun-icon {
+  color: #ffeb3b; /* צהוב */
+}
+
+.irrigation-icon {
+  color: #00bcd4; /* כחול */
+}
+
+.temperature-icon {
+  color: #f44336; /* אדום */
+}
+.summer-icon {
+  color: #ff9800; /* כתום */
+}
+
+.winter-icon {
+  color: #29b6f6; /* כחול */
+}
+
+.spring-icon {
+  color: #66bb6a; /* ירוק */
+}
+
+.autumn-icon {
+  color: #d84315; /* חום */
+}
+.all-seasons-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+}
+
+.season-quarter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-left {
+  background-color: #ffecb3; /* צהוב בהיר (קיץ) */
+}
+
+.top-right {
+  background-color: #e0f2f7; /* כחול בהיר (חורף) */
+}
+
+.bottom-left {
+  background-color: #c8e6c9; /* ירוק בהיר (אביב) */
+}
+
+.bottom-right {
+  background-color: #ffe0b2; /* כתום בהיר (סתיו) */
+}
+.small-season-icon {
+  width: 20px; /* הקטנת גודל האייקון */
+  height: 20px; /* הקטנת גודל האייקון */
+}
+/*plant-detail component*/
+.plant-detail-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* מבטיח שהתמונה תהיה מרובעת ולא תימתח */
+  max-height: 100vh;
+}
+.right-div {
+  flex-shrink: 0;
+  width: 570px;
+  height: 570px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.plant-detail-container-img{
+  display: flex;
+  justify-content: flex-end; /* מצמיד את התמונה לימין */
+  align-items: center; /* ממורכז אנכית */
+  height: 100vh; /* ממלא את כל גובה הדף */
+  position: fixed; /* קובע שהאלמנט לא יגרום לגלילה */
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 20px;
+  overflow: hidden; /* מבטל גלילה פנימית */
+  max-height: 100vh; /* מונע גלילה חיצונית */
+  gap: 40px; /* רווח בין שם התמונה לתמונה */
+}
+.plant-detail-name{
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: -80%; /* מרים את השם למעלה */
+}
+.left-div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 20px;
+  padding-right: 1000px;
+}
+
+.plant-detail-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 20px;
+}
+.left-rectangles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.rectangle {
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,38 @@
+/* Navbar.css */
+.navbar {
+    background-color: transparent !important;
+    box-shadow: none;
+    width: 100%;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between; /* מאפשר פיזור של האייקונים לצדדים */
+    /* padding: 0 20px; */
+    align-items: center;
+    width: 100%;
+  }
+  
+  .right-section {
+    /* display: flex;
+    align-items: center;
+    gap: 10px; */
+    margin-left: auto; 
+    padding-right: 20px; /* מוסיף רווח מהקצה הימני */
+  }
+  .icon-button .MuiSvgIcon-root {
+    color: black; /* הגדרת הצבע של האייקון לשחור */
+  }
+  
+  /* הוספת מרווח לתוכן כך שלא יכסה את הסרגל */
+  body {
+    padding-top: 64px; /* התאמה לגובה ה-AppBar */
+  }
+  .left-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.eastOutlinedIcon{
+    margin-right: auto; /* דוחף את החץ מצד שמאל */
+}

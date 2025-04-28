@@ -1,0 +1,65 @@
+.order-summary-container {
+    margin-top: 20px;
+    direction: rtl;
+    text-align: right;
+    padding: 20px;
+  }
+  
+  .order-title {
+    text-align: center;
+    margin-bottom: 50px; /* הוספת רווח בין הכותרת לתוכן */
+  }
+  
+  .summary-card, .details-card .payment-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    margin-bottom: 20px;
+    direction: rtl; /* כיוון כתיבה מימין לשמאל */
+    text-align: right;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 430px;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+    text-align: right ;
+    direction: rtl;
+  }
+  
+  .submit-button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .sum{
+    text-align: left;
+  }
+  .payment-methods {
+    margin-top: 30px; /* רווח בין הסיכום לאמצעי התשלום */
+  }
+  .payment-card {
+    padding: 20px;
+  }
+  
+  .grid-item {
+    padding: 10px;
+  }
+  .right-txt{
+    text-align: right;
+  }
+  .left-txt{
+    text-align: left;
+  }

@@ -1,0 +1,175 @@
+
+body.home-page {
+  overflow: hidden !important;
+}
+
+.container-plant-card {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    flex-direction: row-reverse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .main-container{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: hidden;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-box {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: right;
+    gap:30px;
+    /* margin-top: -7vh; */
+  }
+  
+  /* שם הצמח - ריווח גדול יותר */
+  .plant-detail-name {
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+}
+  
+  /* מחיר - ריווח גדול יותר אחרי שם הצמח */
+  .plant-price {
+    font-weight: bold;
+    margin-bottom: 80px;
+  }
+  
+  /* כפתור הוסף לעגלה - ריווח גדול יותר מהמלבנים */
+  .add-to-cart {
+    align-self: flex-start;
+    margin-bottom: 120px;
+  }
+  
+  /* עיצוב המלבנים */
+  .info-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    margin: 15px 0;
+    justify-content: right;
+  }
+  .plant-detail-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* מבטיח שהתמונה תהיה מרובעת ולא תימתח */
+    max-height: 100vh;
+  }
+  .right-div {
+    flex-shrink: 0;
+    width: 570px;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .icon-container-detail{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  } 
+  .sun {
+    background-color: #fff9c4; /* צהוב בהיר */
+  }
+  
+  .irrigation {
+    background-color: #b2ebf2; /* כחול בהיר */
+  }
+  
+  .temperature {
+    background-color: #ffcdd2; /* אדום בהיר */
+  }
+  
+  .sun-icon {
+    color: #ffeb3b; /* צהוב */
+  }
+  
+  .irrigation-icon {
+    color: #00bcd4; /* כחול */
+  }
+  
+  .temperature-icon {
+    color: #f44336; /* אדום */
+  }
+  .summer-icon {
+    color: #ff9800; /* כתום */
+  }
+  
+  .winter-icon {
+    color: #29b6f6; /* כחול */
+  }
+  
+  .spring-icon {
+    color: #66bb6a; /* ירוק */
+  }
+  
+  .autumn-icon {
+    color: #d84315; /* חום */
+  }
+  .all-seasons-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    overflow: hidden;
+  }
+  
+  .season-quarter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .top-left {
+    background-color: #ffecb3; /* צהוב בהיר (קיץ) */
+  }
+  
+  .top-right {
+    background-color: #e0f2f7; /* כחול בהיר (חורף) */
+  }
+  
+  .bottom-left {
+    background-color: #c8e6c9; /* ירוק בהיר (אביב) */
+  }
+  
+  .bottom-right {
+    background-color: #ffe0b2; /* כתום בהיר (סתיו) */
+  }
+  .small-season-icon {
+    width: 20px; /* הקטנת גודל האייקון */
+    height: 20px; /* הקטנת גודל האייקון */
+  }
